@@ -24,20 +24,20 @@ const DropDown = ({ ...props }) => {
 					direction: "rtl",
                     padding:"0"
 				}}
-				className="dropdown-menu dropdown-menu-lg-end"
+				className="dropdown-menu dropdown-ul shadow"
 			>
 				<li className="drop-down-item">
-					<Link className="dropdown-item" to="#">
+					<Link className="dropdown-item" to="orders">
 						الطلبات
 					</Link>
 				</li>
 				<li className="drop-down-item">
-					<Link className="dropdown-item" to="#">
+					<Link className="dropdown-item" to="wishlist">
 						منتجاتي المفضله
 					</Link>
 				</li>
 				<li className="drop-down-item">
-					<Link className="dropdown-item" to="#">
+					<Link className="dropdown-item" to="/login">
 						تسجيل الدخول
 					</Link>
 				</li>

@@ -1,0 +1,13 @@
+/* .form-container {
+    background-color: ;
+} */
+
+.register-form {
+    font-size: 1.6rem;
+
+}
+
+.register-form input:not([type="radio"]) {
+    padding: 1rem;
+    font-size: 1.2rem;
+}

@@ -21,7 +21,7 @@ const CardsContainer = () => {
 						desc={
 							"أكبر تشكيلة من أفضل المنتجات تناسب جميع الأذواق و بسعر مناسب"
 						}
-						img={"./مواسير-بلاستيك-1024x682.jpg"}
+						img={"./pexels-victoria-borodinova-3315291-1-1.webp"}
 					/>
 				</Col>
 				<Col lg={4} sm={12} md={6} className="mt-4">
@@ -30,7 +30,7 @@ const CardsContainer = () => {
 						desc={
 							"أكبر تشكيلة من الديكورات العصرية لحمامك أو مطبخك بأفضل الأسعار"
 						}
-						img={"./مواسير-بلاستيك-1024x682.jpg"}
+						img={"./pexels-mathias-reding-7664072.jpg"}
 					/>
 				</Col>
 			</Row>
