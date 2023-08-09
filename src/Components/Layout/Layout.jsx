@@ -28,11 +28,6 @@ const Layout = ({
 	// 	logo: `https://www.dr-mohamed-elsayed.com/logo1.svg`,
 	// };
 
-	
-
-
-	
-
 	return (
 		<>
 			<HelmetProvider>
@@ -124,6 +119,7 @@ const Layout = ({
 					</script> */}
 				</Helmet>
 				<Navbar1 />
+
 				<div className="layout-container">{children}</div>
 				<LazyFooter />
 				<Suspense>

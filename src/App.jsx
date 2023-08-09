@@ -1,6 +1,8 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "react-toastify/dist/ReactToastify.css";
+
 import React, { lazy } from "react";
 import { Routes, Route } from "react-router-dom";
 import Root from "./Components/Root/Root";

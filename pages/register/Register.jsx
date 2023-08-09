@@ -10,10 +10,10 @@ const Register = () => {
 	const isMobileScreen = useMediaQuery({
 		query: "(max-width: 600px)",
 	});
-    console.log(user);
+	console.log(user);
 	return (
-		<Layout >
-            <RegisterForm />
+		<Layout>
+			<RegisterForm />
 		</Layout>
 	);
 };

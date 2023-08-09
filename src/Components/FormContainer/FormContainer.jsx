@@ -2,9 +2,9 @@ import { Container,Row,Col } from "react-bootstrap";
 
 const FormContainer = ({children,className}) => {
     return ( 
-        <Container className="p-5" >
+        <Container className="py-5 px-4" >
             <Row className="justify-content-md-center">
-                <Col xs={12} md={6} className={`${className}`}>
+                <Col xs={12} md={8} className={`${className}`}>
                     {children}
                 </Col>
             </Row>
